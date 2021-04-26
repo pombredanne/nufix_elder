@@ -1,6 +1,6 @@
 Deriving optimal dependency configurations for .NET projects.
 
-### Markdown
+### INTRODUCTION
 
 .NET is an open-source development platform for building projects and sharing packages among them. As at March 2021, there are nine actively used and updated .NET platform variations available in 220 versions. A .NET package is often designed to assume a set of dependencies, which correspond to specific versions of .NET platforms and additional depended packages. These dependencies change as the .NET platforms and packages evolve, inducing compatibility issues. We call such issues Dependency Maze (DM) issues. We observe that multiple types of DM issues often occur in building a .NET project. Fixing a DM issue tends to introduce new DM issues. As a result, many fixes involve a set of changes made to a project's dependencies. Identifying these changes is challenging due to the large search space of finding possible dependency combinations.
 
