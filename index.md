@@ -17,4 +17,4 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
 ### USER STUDY DATASET
 
-USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY
+<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/A Survey for dependency issue patches.zip?raw=true">A Survey for dependency issue patches.zip</a>
