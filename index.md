@@ -7,7 +7,7 @@ Deriving optimal dependency configurations for .NET projects.
 To help .NET developers tackle the DM issues, we empirically studied a set of real DM issues, learning their common fixing strategies and developers' preferences in adopting these strategies. Based on these findings, we develop NuFix, an automated technique to repair DM issues. NuFix formulates the repair task as a binary integer linear optimization problem to effectively derive an optimal fix in line with the learnt developers' preferences. We applied NuFix to our benchmark containing 354 real DM issues with documented fixes. The evaluation results show that NuFix successfully generates fixes for all these DM issues.  The generated fixes are highly similar to the documented ones. Besides, we invited ten .NET experts to manually validate NuFix's generated fixes. Their feedback indicates that the fixes meet developers' desired properties for the build management of .NET projects.
 
 
-### EMPIRICAL STUDY
+### EMPIRICAL STUDY DATASET
 
 EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
@@ -15,6 +15,6 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
 BENCHMARK BENCHMARK BENCHMARK BENCHMARK BENCHMARK BENCHMARK BENCHMARK
 
-### USER STUDY
+### USER STUDY DATASET
 
 USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY USER STUDY
