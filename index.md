@@ -13,7 +13,7 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
 ### BENCHMARK
 
-<a href="/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
+<a href="https://raw.githubusercontent.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
 ### USER STUDY DATASET
 
