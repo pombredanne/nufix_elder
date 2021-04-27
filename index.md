@@ -17,4 +17,4 @@ To help .NET developers tackle the DM issues, we empirically studied a set of re
 <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/A Survey for dependency issue patches.zip?raw=true">A Survey for dependency issue patches.zip</a>
 
 # Expert Validation (RQ4)
-![Octocat](https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/assets/images/%E4%B8%8B%E8%BD%BD.png)
+![Octocat](https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/assets/images/download_png.png)
