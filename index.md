@@ -10,19 +10,11 @@ To help .NET developers tackle the DM issues, we empirically studied a set of re
 
 # Benchmark (RQ3)
 
-<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
+![Octocat](https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/assets/images/%E4%B8%8B%E8%BD%BD.png) <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
 # Expert Validation (RQ4)
 
 <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/A Survey for dependency issue patches.zip?raw=true">A Survey for dependency issue patches.zip</a>
 
 
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
