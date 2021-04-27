@@ -115,7 +115,7 @@ header, footer, section {
 
 div.shell {
   display: block;
-  width: 640px;
+  width: 840px;
   margin: 0 auto;
 }
 
@@ -129,7 +129,7 @@ header {
   position: relative;
   z-index: 2;
   margin: 0;
-  max-width: 640px;
+  max-width: 840px;
   top: 51px;
 }
 
@@ -188,7 +188,7 @@ section#downloads {
   position: relative;
   display: block;
   height: 171px;
-  width: 602px;
+  width: 802px;
   padding-bottom: 150px;
   margin: 51px auto -250px;
   z-index: 1;
@@ -204,7 +204,7 @@ span.banner-fix {
   display: block;
   height: 31px;
   position: absolute;
-  width: 640px;
+  width: 840px;
   top: 20px;
 
 }
@@ -221,7 +221,7 @@ footer {
   background: none;
   padding-top: 104px;
   margin: -94px auto 40px;
-  max-width:640px;
+  max-width:840px;
   text-align: center;
 }
 
