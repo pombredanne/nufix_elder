@@ -16,13 +16,12 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
 <table style="text-align: center; white-space: nowrap; width: max-content; border-color: #000000">
-        <tbody>
+<tbody>
 <tr>
   <td>id</td>
-  <td>repository_full_name</span></td>
-  <td>html_url</td>
-  <td>title_info</td>
- 
+  <td>repository_name</span></td>
+  <td>html</td>
+  <td>title</td>
   <td>targetFramework</span></td>
   <td>directly_dependencies_count</span></td>
   <td>total_dep_count</span></td>
@@ -51,7 +50,7 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
   <td>difference_value_warning_count</span></td>
   <td>difference_value_major_count</span></td>
   <td>difference_value_change_directly_count</span></td>
-  <td >same_packageName_proportion</span></td>
+  <td>same_packageName_proportion</span></td>
   <td>same_packageMajorVersion_proportion</span></td>
   <td>same_dependencies_proportion</td>
  </tr>
