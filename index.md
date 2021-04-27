@@ -1,96 +1,22 @@
----
-layout: default
----
+# NuFix Introduction 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+.NET is an open-source development platform for building projects and sharing packages among them. As at March 2021, there are nine actively used and updated .NET platform variations available in 220 versions. A .NET package is often designed to assume a set of dependencies, which correspond to specific versions of .NET platforms and additional depended packages. These dependencies change as the .NET platforms and packages evolve, inducing compatibility issues. We call such issues Dependency Maze (DM) issues. We observe that multiple types of DM issues often occur in building a .NET project. Fixing a DM issue tends to introduce new DM issues. As a result, many fixes involve a set of changes made to a project's dependencies. Identifying these changes is challenging due to the large search space of finding possible dependency combinations.
+ 
+To help .NET developers tackle the DM issues, we empirically studied a set of real DM issues, learning their common fixing strategies and developers' preferences in adopting these strategies. Based on these findings, we develop NuFix, an automated technique to repair DM issues. NuFix formulates the repair task as a binary integer linear optimization problem to effectively derive an optimal fix in line with the learnt developers' preferences. We applied NuFix to our benchmark containing 354 real DM issues with documented fixes. The evaluation results show that NuFix successfully generates fixes for all these DM issues.  The generated fixes are highly similar to the documented ones. Besides, we invited ten .NET experts to manually validate NuFix's generated fixes. Their feedback indicates that the fixes meet developers' desired properties for the build management of .NET projects.
 
-[Link to another page](./another-page.html).
+# Empirical Study Dataset (RQ1-2)
 
-There should be whitespace between paragraphs.
+ <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Empirical Study Dataset.xlsx</a>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# Benchmark (RQ3)
 
-# Header 1
+<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# Expert Validation (RQ4)
 
-## Header 2
+<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/A Survey for dependency issue patches.zip?raw=true">A Survey for dependency issue patches.zip</a>
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
 
 ### Small image
 
@@ -100,24 +26,3 @@ end
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
