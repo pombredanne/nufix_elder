@@ -15,46 +15,48 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
 <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
+
 <table style="text-align: center; white-space: nowrap; width: max-content; border-color: #000000">
 <tbody>
-<tr>
+<tr >
   <td>id</td>
-  <td>repository_name</span></td>
-  <td>html</td>
-  <td>title</td>
-  <td>targetFramework</span></td>
-  <td>directly_dependencies_count</span></td>
-  <td>total_dep_count</span></td>
-  <td>NU1605_count</span></td>
-  <td>NU1107_count</span></td>
-  <td>NU1202_count</span></td>
-  <td>NU1608_count</span></td>
-  <td>NU1103_count</span></td>
-  <td>NU1701_count</span></td>
-  <td>developer_directly_dependencies_count</span></td>
-  <td>developer_total_dep_count</span></td>
-  <td>developer_NU1608_count</span></td>
-  <td>developer_NU1103_count</span></td>
-  <td>developer_NU1701_count</span></td>
-  <td>developer_major_count</span></td>
-  <td>developer_change_directly_count</span></td>
-  <td>SAT_directly_dependencies_count</span></td>
-  <td>SAT_total_dep_count</span></td>
-  <td>SAT_NU1608_count</span></td>
-  <td>SAT_NU1103_count</span></td>
-  <td>SAT_NU1701_count</span></td>
-  <td>SAT_major_count</span></td>
-  <td>SAT_change_directly_count</span></td>
-  <td>difference_value_directly_dependencies_count</span></td>
-  <td>difference_value_total_dep_count</span></td>
-  <td>difference_value_warning_count</span></td>
-  <td>difference_value_major_count</span></td>
-  <td>difference_value_change_directly_count</span></td>
-  <td>same_packageName_proportion</span></td>
-  <td>same_packageMajorVersion_proportion</span></td>
+  <td>repository_full_name</td>
+  <td>html_url</td>
+  <td>title_info</td>
+  <td>commit_date</td>
+  <td>targetFramework</td>
+  <td>directly_dependencies_count</td>
+  <td>total_dep_count</td>
+  <td>NU1605_count</td>
+  <td>NU1107_count</td>
+  <td>NU1202_count</td>
+  <td>NU1608_count</td>
+  <td>NU1103_count</td>
+  <td>NU1701_count</td>
+  <td>developer_directly_dependencies_count</td>
+  <td>developer_total_dep_count</td>
+  <td>developer_NU1608_count</td>
+  <td>developer_NU1103_count</td>
+  <td>developer_NU1701_count</td>
+  <td>developer_major_count</td>
+  <td>developer_change_directly_count</td>
+  <td>SAT_directly_dependencies_count</td>
+  <td>SAT_total_dep_count</td>
+  <td>SAT_NU1608_count</td>
+  <td>SAT_NU1103_count</td>
+  <td>SAT_NU1701_count</td>
+  <td>SAT_major_count</td>
+  <td>SAT_change_directly_count</td>
+  <td>difference_value_directly_dependencies_count</td>
+  <td>difference_value_total_dep_count</td>
+  <td>difference_value_warning_count</td>
+  <td>difference_value_major_count</td>
+  <td>difference_value_change_directly_count</td>
+  <td >same_packageName_proportion</td>
+  <td>same_packageMajorVersion_proportion</td>
   <td>same_dependencies_proportion</td>
  </tr>
-<tr >
+ <tr >
   <td >9014</td>
   <td>arnoldasgudas/Hangfire.MySqlStorage</td>
   <td>https://github.com/arnoldasgudas/Hangfire.MySqlStorage/commit/a07d9d5273dfb87a2631c73b34658a87bfc43145</td>
@@ -13840,47 +13842,6 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
   <td >1.00 </td>
   <td >0.33 </td>
   <td ></td>
- </tr>
- <![if supportMisalignedColumns]>
- <tr height=0 
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td width=110 style='width:82pt'></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td width=90 style='width:67pt'></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
  </tr>
  </tbody></table>
 ### USER STUDY DATASET
