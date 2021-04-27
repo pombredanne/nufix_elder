@@ -1,3 +1,10 @@
+
+<section class="page-header">
+    <h1 class="project-name">Sensor</h1>
+    <h2 class="project-tagline">This is the project containing information related to research project Sensor</h2>
+    <a href="https://github.com/SensorDC/Sensor" class="btn">View on GitHub</a>
+</section>
+
 Deriving optimal dependency configurations for .NET projects.
 
 ### INTRODUCTION
