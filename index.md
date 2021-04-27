@@ -13,8 +13,7 @@ To help .NET developers tackle the DM issues, we empirically studied a set of re
  <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
 # Expert Validation (RQ4)
-<imge src="https://raw.githubusercontent.com/nufix-dependency-maze/nufix/gh-pages/assets/images/download_png.png" height="20" width="20" title="download"/>
-<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Expert%20Feedback.zip?raw=true">Expert Feedback.zip</a>
 
-# Expert Validation (RQ4)
-![Octocat](https://raw.githubusercontent.com/nufix-dependency-maze/nufix/gh-pages/assets/images/download_png.png)
+<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Expert%20Feedback.zip?raw=true">![Octocat](https://raw.githubusercontent.com/nufix-dependency-maze/nufix/gh-pages/assets/images/download_png_small.png)Expert Feedback.zip</a>
+
+
