@@ -17,44 +17,43 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
 <table style="text-align: center; white-space: nowrap; width: max-content; border-color: #000000">
         <tbody>
-<tr height=19 style='height:14.25pt'>
-  <td height=19 width=68 style='height:14.25pt;width:51pt'>id</td>
-  <td width=68 style='width:51pt'>repository_<span style='display:none'>full_name</span></td>
-  <td width=68 style='width:51pt'>html_url</td>
-  <td width=68 style='width:51pt'>title_info</td>
-  <td width=68 style='width:51pt'>commit_da<span style='display:none'>te</span></td>
-  <td width=68 style='width:51pt'>targetFram<span style='display:none'>ework</span></td>
-  <td width=68 style='width:51pt'>directly_de<span style='display:none'>pendencies_count</span></td>
-  <td width=68 style='width:51pt'>total_dep_<span style='display:none'>count</span></td>
-  <td width=68 style='width:51pt'>NU1605_c<span style='display:none'>ount</span></td>
-  <td width=68 style='width:51pt'>NU1107_c<span style='display:none'>ount</span></td>
-  <td width=68 style='width:51pt'>NU1202_c<span style='display:none'>ount</span></td>
-  <td width=68 style='width:51pt'>NU1608_c<span style='display:none'>ount</span></td>
-  <td width=68 style='width:51pt'>NU1103_c<span style='display:none'>ount</span></td>
-  <td width=68 style='width:51pt'>NU1701_c<span style='display:none'>ount</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>directly_dependencies_count</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>total_dep_count</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>NU1608_count</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>NU1103_count</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>NU1701_count</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>major_count</span></td>
-  <td width=68 style='width:51pt'>developer_<span style='display:none'>change_directly_count</span></td>
-  <td width=68 style='width:51pt'>SAT_directl<span style='display:none'>y_dependencies_count</span></td>
-  <td width=68 style='width:51pt'>SAT_total_<span style='display:none'>dep_count</span></td>
-  <td width=68 style='width:51pt'>SAT_NU16<span style='display:none'>08_count</span></td>
-  <td width=68 style='width:51pt'>SAT_NU11<span style='display:none'>03_count</span></td>
-  <td width=68 style='width:51pt'>SAT_NU17<span style='display:none'>01_count</span></td>
-  <td width=68 style='width:51pt'>SAT_major<span style='display:none'>_count</span></td>
-  <td width=68 style='width:51pt'>SAT_chang<span style='display:none'>e_directly_count</span></td>
-  <td width=68 style='width:51pt'>difference_<span style='display:none'>value_directly_dependencies_count</span></td>
-  <td width=68 style='width:51pt'>difference_<span style='display:none'>value_total_dep_count</span></td>
-  <td width=68 style='width:51pt'>difference_<span style='display:none'>value_warning_count</span></td>
-  <td width=68 style='width:51pt'>difference_<span style='display:none'>value_major_count</span></td>
-  <td width=68 style='width:51pt'>difference_<span style='display:none'>value_change_directly_count</span></td>
-  <td width=68 style='width:51pt'>obj_param<span style='display:none'>eter</span></td>
-  <td width=68 style='width:51pt'>same_pack<span style='display:none'>ageName_proportion</span></td>
-  <td width=68 style='width:51pt'>same_pack<span style='display:none'>ageMajorVersion_proportion</span></td>
-  <td colspan=3 width=204 style='mso-ignore:colspan;width:153pt'>same_dependencies_proportion</td>
+<tr>
+  <td>id</td>
+  <td>repository_full_name</span></td>
+  <td>html_url</td>
+  <td>title_info</td>
+  <td>commit_date</span></td>
+  <td>targetFramework</span></td>
+  <td>directly_dependencies_count</span></td>
+  <td>total_dep_count</span></td>
+  <td>NU1605_count</span></td>
+  <td>NU1107_count</span></td>
+  <td>NU1202_count</span></td>
+  <td>NU1608_count</span></td>
+  <td>NU1103_count</span></td>
+  <td>NU1701_count</span></td>
+  <td>developer_directly_dependencies_count</span></td>
+  <td>developer_total_dep_count</span></td>
+  <td>developer_NU1608_count</span></td>
+  <td>developer_NU1103_count</span></td>
+  <td>developer_NU1701_count</span></td>
+  <td>developer_major_count</span></td>
+  <td>developer_change_directly_count</span></td>
+  <td>SAT_directly_dependencies_count</span></td>
+  <td>SAT_total_dep_count</span></td>
+  <td>SAT_NU1608_count</span></td>
+  <td>SAT_NU1103_count</span></td>
+  <td>SAT_NU1701_count</span></td>
+  <td>SAT_major_count</span></td>
+  <td>SAT_change_directly_count</span></td>
+  <td>difference_value_directly_dependencies_count</span></td>
+  <td>difference_value_total_dep_count</span></td>
+  <td>difference_value_warning_count</span></td>
+  <td>difference_value_major_count</span></td>
+  <td>difference_value_change_directly_count</span></td>
+  <td >same_packageName_proportion</span></td>
+  <td>same_packageMajorVersion_proportion</span></td>
+  <td>same_dependencies_proportion</td>
  </tr>
  <tr height=19 style='height:14.25pt'>
   <td height=19 align=right style='height:14.25pt'>9014</td>
