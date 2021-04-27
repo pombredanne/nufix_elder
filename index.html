@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sensor</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+
+<body>
+<section class="page-header">
+    <h1 class="project-name">Sensor</h1>
+    <h2 class="project-tagline">This is the project containing information related to research project Sensor</h2>
+    <a href="https://github.com/SensorDC/Sensor" class="btn">View on GitHub</a>
+</section>
+
+<section class="main-content">
+    <h2 id="download-dataset">Download Ground Truth Dataset</h2>
+    <p>
+        <a href="https://github.com/SensorDC/SensorDC.github.io/raw/master/Ground%20Truth%20Dataset.xlsx">Ground Truth Dataset.xlsx</a>
+    </p>
+
+    <h2 id="Sensor-introduction">Sensor Introduction</h2>
+    <p class="textcontent">
+        Java projects are often built on top of various third-party libraries. If multiple versions of a library exist on the classpath, JVM will only load one version and shadow the others, which we refer to as dependency conflicts. This would give rise to semantic conflict (SC) issues, if the library APIs referenced by a project have identical method signatures but inconsistent semantics across the loaded and shadowed versions of libraries. SC issues are difficult for developers to diagnose in practice, since understanding them typically requires domain knowledge. Although adapting the existing test generation technique for dependency conflict issues, Riddle, to detect SC issues is feasible, its effectiveness is greatly compromised. This is mainly because Riddle randomly generates test inputs, while the SC issues typically require specific arguments in the tests to be exposed. To address that, we conducted an empirical study of 316 real SC issues to understand the characteristics of such specific arguments in the test cases that can capture the SC issues. Inspired by our empirical findings, we propose an automated testing technique Sensor, which synthesizes test cases using ingredients from the project under test to trigger inconsistent behaviors of the APIs with the same signatures in conflicting library versions. Our evaluation results show that Sensor is effective and useful: it achieved a Precision of 0.898 and a Recall of 0.725 on open-source projects and a Precision of 0.821 on industrial projects; it detected 306 semantic conflict issues in 50 projects, 70.4% of which had been confirmed as real bugs, and 84.2% of the confirmed issues have been fixed quickly.
+    </p>
+
+    <h2 id="Sensor-report">Assessment Report of Sensor</h2>
+    <p>
+        <a href="https://github.com/SensorDC/SensorDC.github.io/raw/master/Trial%20Report%20of%20Sensor%20-%20E-mail.pdf">Assessment report.pdf</a>
+    </p>
+
+    <h2 id="Sensor-issue-report">The SC issues reported by Sensor</h2>
+    <table style="text-align: center; white-space: nowrap; width: max-content; border-color: #000000">
+        <tr>
+            <td>ID</td>
+            <td>Project</td>
+            <td>Star</td>
+            <td>Issue report ID</td>
+            <td>#SC issue</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Htm.java</td>
+            <td>296</td>
+            <td><a href="https://github.com/numenta/htm.java/issues/550">#550</a></td>
+            <td>1</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>EasyTransaction</td>
+            <td>2k</td>
+            <td><a href="https://github.com/QNJR-GROUP/EasyTransaction/issues/144">#144</a></td>
+            <td>1</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Apache/Reef</td>
+            <td>92</td>
+            <td><a href="https://github.com/apache/reef/pull/1489">#1489</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Hydra</td>
+            <td>83</td>
+            <td><a href="https://github.com/Findwise/Hydra/issues/364">#364</a></td>
+            <td>1</td>
+            <td>Confirmed</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Motan</td>
+            <td>5.4k</td>
+            <td><a href="https://github.com/weibocom/motan/issues/800">#800</a></td>
+            <td>15</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Motan</td>
+            <td>5.4k</td>
+            <td><a href="https://github.com/weibocom/motan/issues/809">#809</a></td>
+            <td>15</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Netty-rest</td>
+            <td>89</td>
+            <td><a href="https://github.com/buremba/netty-rest/issues/8">#8</a></td>
+            <td>12</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Netty-rest</td>
+            <td>89</td>
+            <td><a href="https://github.com/buremba/netty-rest/issues/9">#9</a></td>
+            <td>9</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Ff4j</td>
+            <td>701</td>
+            <td><a href="https://github.com/ff4j/ff4j/issues/336">#336</a></td>
+            <td>10</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Aws-sdk-java</td>
+            <td>3.2k</td>
+            <td><a href="https://github.com/aws/aws-sdk-java/issues/1897">#1897</a></td>
+            <td>1</td>
+            <td>False positive</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Retrofit</td>
+            <td>34.8k</td>
+            <td><a href="https://github.com/square/retrofit/issues/3018">#3018</a></td>
+            <td>12</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Guagua</td>
+            <td>72</td>
+            <td><a href="https://github.com/ShifuML/guagua/issues/103">#103</a></td>
+            <td>19</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Jss7</td>
+            <td>104</td>
+            <td><a href="https://github.com/RestComm/jss7/issues/309">#309</a></td>
+            <td>1</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Product-iots</td>
+            <td>120</td>
+            <td><a href="https://github.com/wso2/product-iots/issues/1911">#1911</a></td>
+            <td>1</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Atom-hopper</td>
+            <td>58</td>
+            <td><a href="https://github.com/rackerlabs/atom-hopper/issues/301">#301</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Quick-media</td>
+            <td>441</td>
+            <td><a href="https://github.com/liuyueyi/quick-media/issues/41">#41</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Ontop</td>
+            <td>325</td>
+            <td><a href="https://github.com/ontop/ontop/issues/287">#287</a></td>
+            <td>12</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Ontop</td>
+            <td>325</td>
+            <td><a href="https://github.com/ontop/ontop/issues/288">#288</a></td>
+            <td>17</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Odo</td>
+            <td>141</td>
+            <td><a href="https://github.com/groupon/odo/issues/173">#173</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Java-design-patterns</td>
+            <td>55.2k</td>
+            <td><a href="https://github.com/iluwatar/java-design-patterns/issues/868">#868</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Hmily</td>
+            <td>2.7k</td>
+            <td><a href="https://github.com/Dromara/hmily/issues/86">#86</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Ninja</td>
+            <td>1.9k</td>
+            <td><a href="https://github.com/ninjaframework/ninja/issues/654">#654</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Restx</td>
+            <td>434</td>
+            <td><a href="https://github.com/restx/restx/issues/297">#297</a></td>
+            <td>3</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Openstack-java-sdk</td>
+            <td>177</td>
+            <td><a href="https://github.com/woorea/openstack-java-sdk/issues/214">#214</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Javacpp</td>
+            <td>3k</td>
+            <td><a href="https://github.com/bytedeco/javacpp/issues/295">#295</a></td>
+            <td>1</td>
+            <td>False positive</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>MiA</td>
+            <td>342</td>
+            <td><a href="https://github.com/tdunning/MiA/issues/11">#11</a></td>
+            <td>1</td>
+            <td>Confirmed</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>Vertx-examples</td>
+            <td>2.6k</td>
+            <td><a href="https://github.com/vert-x3/vertx-examples/issues/335">#335</a></td>
+            <td>1</td>
+            <td>Confirmed</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>Vertx-examples</td>
+            <td>2.6k</td>
+            <td><a href="https://github.com/vert-x3/vertx-examples/issues/336">#336</a></td>
+            <td>1</td>
+            <td>Confirmed</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>Rest-assured</td>
+            <td>4.5k</td>
+            <td><a href="https://github.com/rest-assured/rest-assured/issues/1143">#1143</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>Yawp</td>
+            <td>137</td>
+            <td><a href="https://github.com/feroult/yawp/issues/121">#121</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>Apache/Hive</td>
+            <td>3k</td>
+            <td><a href="https://issues.apache.org/jira/browse/HIVE-21374">#21374</a></td>
+            <td>1</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>32</td>
+        	<td>Weixin-java-demo-springmvc</td>
+        	<td>333</td>
+        	<td><a href="https://github.com/Wechat-Group/weixin-java-demo-springmvc/issues/17">#17</a></td>
+        	<td>3</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>33</td>
+        	<td>Nutzboot</td>
+        	<td>342</td>
+        	<td><a href="https://github.com/nutzam/nutzboot/issues/199">#199</a></td>
+        	<td>2</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>34</td>
+        	<td>FastjsonExploit</td>
+        	<td>336</td>
+        	<td><a href="https://github.com/c0ny1/FastjsonExploit/issues/6">#6</a></td>
+        	<td>1</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>35</td>
+        	<td>metrics-cloudwatch</td>
+        	<td>23</td>
+        	<td><a href="https://github.com/plausiblelabs/metrics-cloudwatch/issues/4">#4</a></td>
+        	<td>1</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>36</td>
+        	<td>Sentinel</td>
+        	<td>13.7k</td>
+        	<td><a href="https://github.com/alibaba/Sentinel/issues/1730">#1730</a></td>
+        	<td>1</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>37</td>
+        	<td>SmartIM</td>
+        	<td>131</td>
+        	<td><a href="https://github.com/Jamling/SmartIM/issues/12">#12</a></td>
+        	<td>11</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>38</td>
+        	<td>KafkaExample</td>
+        	<td>116</td>
+        	<td><a href="https://github.com/habren/KafkaExample/issues/2">#2</a></td>
+        	<td>5</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>39</td>
+        	<td>querydsl</td>
+        	<td>3k</td>
+        	<td><a href="https://github.com/querydsl/querydsl/issues/2647">#2647</a></td>
+        	<td>18</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>40</td>
+        	<td>DataLink</td>
+        	<td>655</td>
+        	<td><a href="https://github.com/ucarGroup/DataLink/issues/52">#52</a></td>
+        	<td>10</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>41</td>
+        	<td>Confluent-Kafka-Certification</td>
+        	<td>72</td>
+        	<td><a href="https://github.com/varmaprr/Confluent-Kafka-Certification/issues/5">#5</a></td>
+        	<td>4</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>42</td>
+        	<td>yql-plus</td>
+        	<td>32</td>
+        	<td><a href="https://github.com/yahoo/yql-plus/issues/119">#119</a></td>
+        	<td>29</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>43</td>
+        	<td>jprotobuf</td>
+        	<td>633</td>
+        	<td><a href="https://github.com/jhunters/jprotobuf/issues/141">#141</a></td>
+        	<td>4</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>44</td>
+        	<td>freedomotic</td>
+        	<td>339</td>
+        	<td><a href="https://github.com/freedomotic/freedomotic/issues/490">#490</a></td>
+        	<td>1</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>45</td>
+        	<td>reactive-grpc</td>
+        	<td>537</td>
+        	<td><a href="https://github.com/salesforce/reactive-grpc/issues/226">#226</a></td>
+        	<td>4</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>46</td>
+        	<td>hangout</td>
+        	<td>461</td>
+        	<td><a href="https://github.com/childe/hangout/issues/163">#163</a></td>
+        	<td>5</td>
+        	<td>Fixed</td>
+        </tr>
+        <tr>
+        	<td>47</td>
+        	<td>xenqtt</td>
+        	<td>23</td>
+        	<td><a href="https://github.com/TwoGuysFromKabul/xenqtt/issues/4">#4</a></td>
+        	<td>9</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>48</td>
+        	<td>distributed-redis-tool</td>
+        	<td>565</td>
+        	<td><a href="https://github.com/crossoverJie/distributed-redis-tool/issues/24">#24</a></td>
+        	<td>21</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>49</td>
+        	<td>webmagic</td>
+        	<td>9.3k</td>
+        	<td><a href="https://github.com/code4craft/webmagic/issues/951">#951</a></td>
+        	<td>10</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>50</td>
+        	<td>kafka-avro-course</td>
+        	<td>102</td>
+        	<td><a href="https://github.com/simplesteph/kafka-avro-course/issues/8">#8</a></td>
+        	<td>4</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>51</td>
+        	<td>netbout</td>
+        	<td>37</td>
+        	<td><a href="https://github.com/yegor256/netbout/issues/1159">#1159</a></td>
+        	<td>1</td>
+        	<td>Confirmed</td>
+        </tr>
+        <tr>
+        	<td>52</td>
+        	<td>qconfig</td>
+        	<td>181</td>
+        	<td><a href="https://github.com/qunarcorp/qconfig/issues/17">#17</a></td>
+        	<td>5</td>
+        	<td>Pending</td>
+        </tr>
+        <tr>
+        	<td>53</td>
+        	<td>database</td>
+        	<td>518</td>
+        	<td><a href="https://github.com/blazegraph/database/issues/180">#180</a></td>
+        	<td>11</td>
+        	<td>Confirmed</td>
+        </tr>
+        <tr>
+        	<td>54</td>
+        	<td>halo-dal</td>
+        	<td>84</td>
+        	<td><a href="https://github.com/akwei/halo-dal/issues/8">#8</a></td>
+        	<td>1</td>
+        	<td>Pending</td>
+        </tr>
+    </table>
+    <footer class="site-footer">
+        <span class="site-footer-owner">
+            <a href="https://github.com/SensorDC/Sensor">Sensor</a> is maintained by <a href="https://github.com/SensorDC/Sensor">SensorDC</a>.
+        </span>
+    </footer>
+</section>
+</body>
+</html>
