@@ -2,4 +2,4 @@ title: NuFix
 description: Deriving optimal dependency configurations for .NET projects.
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-merlot
+theme: jekyll-theme-architect
