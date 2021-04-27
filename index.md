@@ -22,7 +22,7 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
   <td>repository_full_name</span></td>
   <td>html_url</td>
   <td>title_info</td>
-  <td>commit_date</span></td>
+ 
   <td>targetFramework</span></td>
   <td>directly_dependencies_count</span></td>
   <td>total_dep_count</span></td>
