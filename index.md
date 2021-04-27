@@ -15,6 +15,24 @@ EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY EMPIRICAL STUDY
 
 <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Benchmark.zip?raw=true">Benchmark.zip</a>
 
+<table style="text-align: center; white-space: nowrap; width: max-content; border-color: #000000">
+        <tbody><tr>
+            <td>ID</td>
+            <td>Project</td>
+            <td>Star</td>
+            <td>Issue report ID</td>
+            <td>#SC issue</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Htm.java</td>
+            <td>296</td>
+            <td><a href="https://github.com/numenta/htm.java/issues/550">#550</a></td>
+            <td>1</td>
+            <td>Pending</td>
+        </tr>
+ </tbody></table>
 ### USER STUDY DATASET
 
 <a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/A Survey for dependency issue patches.zip?raw=true">A Survey for dependency issue patches.zip</a>
