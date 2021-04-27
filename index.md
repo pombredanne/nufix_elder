@@ -14,7 +14,7 @@ To help .NET developers tackle the DM issues, we empirically studied a set of re
 
 # Expert Validation (RQ4)
 
-<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Expert%20Feedback.zip?raw=true">Expert feedback.zip</a>
+<a href="https://github.com/nufix-dependency-maze/nufix/blob/gh-pages/Expert%20Feedback.zip?raw=true">Expert Feedback.zip</a>
 
 # Expert Validation (RQ4)
 ![Octocat](https://raw.githubusercontent.com/nufix-dependency-maze/nufix/gh-pages/assets/images/download_png.png)
